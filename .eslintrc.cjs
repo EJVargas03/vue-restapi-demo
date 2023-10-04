@@ -3,7 +3,12 @@ require('@rushstack/eslint-patch/modern-module-resolution')
 
 module.exports = {
   root: true,
-  extends: ['plugin:vue/vue3-recommended', 'eslint:recommended', 'prettier'],
+  extends: [
+    '@react-native-community',
+    'plugin:vue/vue3-recommended',
+    'eslint:recommended',
+    'prettier',
+  ],
   plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
