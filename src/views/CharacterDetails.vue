@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, onUnmounted } from 'vue'
 import { useRoute } from 'vue-router'
-
+// import { fetchCharacter, currentCharacter} from '@/composables/useCharacters'
 import useCharacters from '@/composables/useCharacters'
 
 const route = useRoute()

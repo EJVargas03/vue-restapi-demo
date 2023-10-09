@@ -5,12 +5,14 @@ import useCharacters from '@/composables/useCharacters'
 
 const { characters, fetchCharacters, firstLoad } = useCharacters()
 
+/*
 onMounted(async () => {
   if (firstLoad.value) {
     await fetchCharacters()
     firstLoad.value = false
   }
 })
+*/
 </script>
 
 <template>

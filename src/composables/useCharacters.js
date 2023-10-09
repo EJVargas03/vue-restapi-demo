@@ -10,6 +10,8 @@ const page = ref(1)
 
 const useCharacters = () => {
   const fetchCharacters = async () => {
+    /* const fetchCharacter = async api.instnave.get(url:'/characters')
+    constole.log(message: response)*/
     const { data } = await api.instance.get('/characters', {
       params: {
         page: page.value,
